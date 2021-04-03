@@ -11,7 +11,7 @@
 
 ======report generate after load test======
 ```sh 
-jmeter -n -t ./customer_api.jmx -l ./result.xml -e -o ./Customer_Test_API/Reports
+jmeter -n -t ./customer_api.jmx -l ./result.xml -e -o ./Reports
 ```
 ======report generate from existing log======
 ```sh 
