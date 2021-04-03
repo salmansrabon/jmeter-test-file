@@ -8,6 +8,8 @@
 - ======report generate after load test======
 ```sh 
 jmeter -n -t ./Customer_Test_API/customer_api.jmx -l ./Customer_Test_API/result.xml -e -o ./Customer_Test_API/Reports
-
-======report generate from existing log======
-jmeter -g ./Customer_Test_API/result.jtl -o ./Customer_Test_API/Reports ```
+```
+- ======report generate from existing log======
+```sh 
+jmeter -g ./Customer_Test_API/result.jtl -o ./Customer_Test_API/Reports 
+```
