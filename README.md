@@ -6,14 +6,14 @@
 
 ## Run the script:
 
-- open the folder with git bash or powershell or cmd
+- Open the folder with git bash or powershell or cmd
 - Then type following command to perform load test and generate report.
 
-- ======report generate after load test======
+======report generate after load test======
 ```sh 
 jmeter -n -t ./Customer_Test_API/customer_api.jmx -l ./Customer_Test_API/result.xml -e -o ./Customer_Test_API/Reports
 ```
-- ======report generate from existing log======
+======report generate from existing log======
 ```sh 
 jmeter -g ./Customer_Test_API/result.jtl -o ./Customer_Test_API/Reports 
 ```
