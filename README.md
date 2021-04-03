@@ -15,5 +15,5 @@ jmeter -n -t ./customer_api.jmx -l ./result.xml -e -o ./Reports
 ```
 ======report generate from existing log======
 ```sh 
-jmeter -g ./result.jtl -o ./Reports 
+jmeter -g ./result.xml -o ./Reports 
 ```
